@@ -3,9 +3,9 @@ package server
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	servermodule "github.com/regen-network/regen-ledger/types/module/server"
-	"github.com/regen-network/regen-ledger/x/data"
-	"github.com/regen-network/regen-ledger/x/data/server/lookup"
+	servermodule "github.com/vlamitin/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/x/data"
+	"github.com/vlamitin/regen-ledger/x/data/server/lookup"
 )
 
 type serverImpl struct {

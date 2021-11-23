@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/regen-network/regen-ledger/types/testutil"
-	"github.com/regen-network/regen-ledger/x/data"
+	"github.com/vlamitin/regen-ledger/types/testutil"
+	"github.com/vlamitin/regen-ledger/x/data"
 )
 
 type IntegrationTestSuite struct {

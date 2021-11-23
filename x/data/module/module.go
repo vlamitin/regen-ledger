@@ -10,14 +10,14 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	restmodule "github.com/regen-network/regen-ledger/types/module/client/grpc_gateway"
+	restmodule "github.com/vlamitin/regen-ledger/types/module/client/grpc_gateway"
 	"github.com/spf13/cobra"
 
-	climodule "github.com/regen-network/regen-ledger/types/module/client/cli"
-	servermodule "github.com/regen-network/regen-ledger/types/module/server"
-	"github.com/regen-network/regen-ledger/x/data"
-	"github.com/regen-network/regen-ledger/x/data/client"
-	"github.com/regen-network/regen-ledger/x/data/server"
+	climodule "github.com/vlamitin/regen-ledger/types/module/client/cli"
+	servermodule "github.com/vlamitin/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/x/data"
+	"github.com/vlamitin/regen-ledger/x/data/client"
+	"github.com/vlamitin/regen-ledger/x/data/server"
 )
 
 type Module struct{}

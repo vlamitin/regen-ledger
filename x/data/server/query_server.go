@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/x/data"
+	"github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/x/data"
 )
 
 var _ data.QueryServer = serverImpl{}

@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/regen-network/regen-ledger/types/module"
-	"github.com/regen-network/regen-ledger/types/module/server"
-	datamodule "github.com/regen-network/regen-ledger/x/data/module"
-	"github.com/regen-network/regen-ledger/x/data/server/testsuite"
+	"github.com/vlamitin/regen-ledger/types/module"
+	"github.com/vlamitin/regen-ledger/types/module/server"
+	datamodule "github.com/vlamitin/regen-ledger/x/data/module"
+	"github.com/vlamitin/regen-ledger/x/data/server/testsuite"
 )
 
 func TestServer(t *testing.T) {
