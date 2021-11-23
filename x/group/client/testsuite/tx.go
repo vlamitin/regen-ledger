@@ -15,10 +15,10 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/regen-network/regen-ledger/types/testutil/cli"
-	"github.com/regen-network/regen-ledger/types/testutil/network"
-	"github.com/regen-network/regen-ledger/x/group"
-	"github.com/regen-network/regen-ledger/x/group/client"
+	"github.com/vlamitin/regen-ledger/types/testutil/cli"
+	"github.com/vlamitin/regen-ledger/types/testutil/network"
+	"github.com/vlamitin/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/x/group/client"
 )
 
 type IntegrationTestSuite struct {

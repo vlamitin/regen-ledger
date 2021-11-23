@@ -14,13 +14,13 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
 	"github.com/gogo/protobuf/proto"
-	"github.com/regen-network/regen-ledger/types/testutil/cli"
-	"github.com/regen-network/regen-ledger/types/testutil/network"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
-	"github.com/regen-network/regen-ledger/x/ecocredit/client"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
+	"github.com/vlamitin/regen-ledger/types/testutil/cli"
+	"github.com/vlamitin/regen-ledger/types/testutil/network"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/ecocredit/client"
 )
 
 type IntegrationTestSuite struct {

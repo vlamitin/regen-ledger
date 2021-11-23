@@ -14,8 +14,8 @@ import (
 	gogogrpc "github.com/gogo/protobuf/grpc"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/types/module"
+	"github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/types/module"
 )
 
 // Manager is the server module manager

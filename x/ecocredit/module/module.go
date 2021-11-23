@@ -15,15 +15,15 @@ import (
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	restmodule "github.com/regen-network/regen-ledger/types/module/client/grpc_gateway"
 	"github.com/spf13/cobra"
+	restmodule "github.com/vlamitin/regen-ledger/types/module/client/grpc_gateway"
 
-	climodule "github.com/regen-network/regen-ledger/types/module/client/cli"
-	servermodule "github.com/regen-network/regen-ledger/types/module/server"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
-	"github.com/regen-network/regen-ledger/x/ecocredit/client"
-	"github.com/regen-network/regen-ledger/x/ecocredit/server"
-	"github.com/regen-network/regen-ledger/x/ecocredit/simulation"
+	climodule "github.com/vlamitin/regen-ledger/types/module/client/cli"
+	servermodule "github.com/vlamitin/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/ecocredit/client"
+	"github.com/vlamitin/regen-ledger/x/ecocredit/server"
+	"github.com/vlamitin/regen-ledger/x/ecocredit/simulation"
 )
 
 type Module struct {

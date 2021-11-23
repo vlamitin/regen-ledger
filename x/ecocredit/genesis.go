@@ -2,7 +2,7 @@ package ecocredit
 
 import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/regen-network/regen-ledger/types/math"
+	"github.com/vlamitin/regen-ledger/types/math"
 )
 
 // Validate performs basic validation for each credit-batch,

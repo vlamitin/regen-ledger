@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/regen-network/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"google.golang.org/grpc"

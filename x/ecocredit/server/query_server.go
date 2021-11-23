@@ -8,10 +8,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/regen-network/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/types"
 
-	"github.com/regen-network/regen-ledger/orm"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 // Classes queries for all credit classes with pagination.

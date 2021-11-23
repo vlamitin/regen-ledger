@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/regen-network/regen-ledger/types/testutil/cli"
-	"github.com/regen-network/regen-ledger/x/group"
-	"github.com/regen-network/regen-ledger/x/group/client"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
+	"github.com/vlamitin/regen-ledger/types/testutil/cli"
+	"github.com/vlamitin/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/x/group/client"
 )
 
 func (s *IntegrationTestSuite) TestQueryGroupInfo() {

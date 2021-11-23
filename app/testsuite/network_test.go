@@ -6,9 +6,9 @@ package testsuite_test
 import (
 	"testing"
 
-	"github.com/regen-network/regen-ledger/app/testsuite"
-	"github.com/regen-network/regen-ledger/types/testutil/network"
 	"github.com/stretchr/testify/suite"
+	"github.com/vlamitin/regen-ledger/app/testsuite"
+	"github.com/vlamitin/regen-ledger/types/testutil/network"
 )
 
 func TestNetwork(t *testing.T) {

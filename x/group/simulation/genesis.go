@@ -10,7 +10,7 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	gogotypes "github.com/gogo/protobuf/types"
 
-	"github.com/regen-network/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/x/group"
 )
 
 const (

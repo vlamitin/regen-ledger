@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/regen-network/regen-ledger/types"
 	abci "github.com/tendermint/tendermint/abci/types"
+	"github.com/vlamitin/regen-ledger/types"
 )
 
 type InitGenesisHandler func(ctx types.Context, cdc codec.Codec, data json.RawMessage) ([]abci.ValidatorUpdate, error)

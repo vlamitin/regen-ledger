@@ -12,10 +12,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	gogotypes "github.com/gogo/protobuf/types"
-	"github.com/regen-network/regen-ledger/orm"
-	"github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/types/math"
-	"github.com/regen-network/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/types/math"
+	"github.com/vlamitin/regen-ledger/x/group"
 )
 
 // TODO: Revisit this once we have propoer gas fee framework.

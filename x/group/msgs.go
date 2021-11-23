@@ -9,8 +9,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	proto "github.com/gogo/protobuf/proto"
-	"github.com/regen-network/regen-ledger/types/math"
-	"github.com/regen-network/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/types/math"
+	"github.com/vlamitin/regen-ledger/types/module/server"
 )
 
 var _ sdk.Msg = &MsgCreateGroup{}

@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"pgregory.net/rapid"
 
-	"github.com/regen-network/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/orm"
 )
 
 func TestSequence(t *testing.T) {

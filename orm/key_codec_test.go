@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/regen-network/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/orm"
 )
 
 func TestAddLengthPrefix(t *testing.T) {

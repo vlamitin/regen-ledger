@@ -6,7 +6,7 @@ import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
 import "regen/data/v1alpha2/types.proto";
 
-option go_package = "github.com/regen-network/regen-ledger/x/data";
+option go_package = "github.com/vlamitin/regen-ledger/x/data";
 
 // Msg is the regen.data.v1alpha1 Msg service
 service Msg {

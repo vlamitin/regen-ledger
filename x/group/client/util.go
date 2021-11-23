@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	"github.com/regen-network/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/x/group"
 )
 
 func parseMembers(clientCtx client.Context, membersFile string) ([]group.Member, error) {

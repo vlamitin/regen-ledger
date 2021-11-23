@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/spf13/cobra"
 
-	"github.com/regen-network/regen-ledger/types/module"
+	"github.com/vlamitin/regen-ledger/types/module"
 )
 
 // Module is an interface that modules should implement to integrate with the CLI framework.

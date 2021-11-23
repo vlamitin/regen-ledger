@@ -16,7 +16,7 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 // TxCmd returns a root CLI command handler for all x/ecocredit transaction commands.

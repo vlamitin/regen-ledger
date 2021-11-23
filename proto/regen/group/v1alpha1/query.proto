@@ -7,7 +7,7 @@ import "google/api/annotations.proto";
 import "gogoproto/gogo.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 
-option go_package = "github.com/regen-network/regen-ledger/x/group";
+option go_package = "github.com/vlamitin/regen-ledger/x/group";
 
 // Query is the regen.group.v1alpha1 Query service.
 service Query {

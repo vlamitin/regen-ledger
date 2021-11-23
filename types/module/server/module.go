@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdkmodule "github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/regen-network/regen-ledger/types/module"
+	"github.com/vlamitin/regen-ledger/types/module"
 )
 
 // Module is the module type that all server modules must satisfy

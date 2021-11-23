@@ -8,11 +8,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/pkg/errors"
-	"github.com/regen-network/regen-ledger/types/math"
 	abci "github.com/tendermint/tendermint/abci/types"
+	"github.com/vlamitin/regen-ledger/types/math"
 
-	"github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 // InitGenesis performs genesis initialization for the ecocredit module. It

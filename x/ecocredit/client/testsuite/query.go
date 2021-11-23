@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/regen-network/regen-ledger/types/testutil/cli"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
-	"github.com/regen-network/regen-ledger/x/ecocredit/client"
+	"github.com/vlamitin/regen-ledger/types/testutil/cli"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/ecocredit/client"
 )
 
 func (s *IntegrationTestSuite) TestQueryClasses() {

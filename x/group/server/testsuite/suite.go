@@ -17,12 +17,12 @@ import (
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/regen-network/regen-ledger/types"
-	servermodule "github.com/regen-network/regen-ledger/types/module/server"
-	"github.com/regen-network/regen-ledger/types/testutil"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
-	"github.com/regen-network/regen-ledger/x/group"
-	"github.com/regen-network/regen-ledger/x/group/testdata"
+	"github.com/vlamitin/regen-ledger/types"
+	servermodule "github.com/vlamitin/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/types/testutil"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/x/group/testdata"
 )
 
 type IntegrationTestSuite struct {

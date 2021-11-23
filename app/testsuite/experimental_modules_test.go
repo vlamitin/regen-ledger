@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	group "github.com/regen-network/regen-ledger/x/group/client/testsuite"
+	group "github.com/vlamitin/regen-ledger/x/group/client/testsuite"
 )
 
 func TestGroupIntegration(t *testing.T) {

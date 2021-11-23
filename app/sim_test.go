@@ -26,12 +26,12 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/modules/apps/transfer/types"
 	ibchost "github.com/cosmos/ibc-go/modules/core/24-host"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 // Get flags every time the simulator is run

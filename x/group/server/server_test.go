@@ -16,13 +16,13 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/regen-network/regen-ledger/types/module"
-	"github.com/regen-network/regen-ledger/types/module/server"
-	data "github.com/regen-network/regen-ledger/x/data/module"
-	ecocredittypes "github.com/regen-network/regen-ledger/x/ecocredit"
-	ecocredit "github.com/regen-network/regen-ledger/x/ecocredit/module"
-	group "github.com/regen-network/regen-ledger/x/group/module"
-	"github.com/regen-network/regen-ledger/x/group/server/testsuite"
+	"github.com/vlamitin/regen-ledger/types/module"
+	"github.com/vlamitin/regen-ledger/types/module/server"
+	data "github.com/vlamitin/regen-ledger/x/data/module"
+	ecocredittypes "github.com/vlamitin/regen-ledger/x/ecocredit"
+	ecocredit "github.com/vlamitin/regen-ledger/x/ecocredit/module"
+	group "github.com/vlamitin/regen-ledger/x/group/module"
+	"github.com/vlamitin/regen-ledger/x/group/server/testsuite"
 )
 
 func TestServer(t *testing.T) {

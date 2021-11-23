@@ -22,11 +22,11 @@ import (
 	paramskeeper "github.com/cosmos/cosmos-sdk/x/params/keeper"
 	upgradeclient "github.com/cosmos/cosmos-sdk/x/upgrade/client"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	moduletypes "github.com/regen-network/regen-ledger/types/module"
-	"github.com/regen-network/regen-ledger/types/module/server"
-	data "github.com/regen-network/regen-ledger/x/data/module"
-	ecocredittypes "github.com/regen-network/regen-ledger/x/ecocredit"
-	group "github.com/regen-network/regen-ledger/x/group/module"
+	moduletypes "github.com/vlamitin/regen-ledger/types/module"
+	"github.com/vlamitin/regen-ledger/types/module/server"
+	data "github.com/vlamitin/regen-ledger/x/data/module"
+	ecocredittypes "github.com/vlamitin/regen-ledger/x/ecocredit"
+	group "github.com/vlamitin/regen-ledger/x/group/module"
 )
 
 func setCustomModuleBasics() []module.AppModuleBasic {
