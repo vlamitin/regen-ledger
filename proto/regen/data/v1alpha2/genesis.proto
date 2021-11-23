@@ -5,7 +5,7 @@ package regen.data.v1alpha2;
 import "regen/data/v1alpha2/types.proto";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/regen-network/regen-ledger/x/data";
+option go_package = "github.com/vlamitin/regen-ledger/x/data";
 
 // GenesisState is the genesis state
 message GenesisState {

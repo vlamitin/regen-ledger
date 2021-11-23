@@ -15,7 +15,7 @@ import (
 	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
 	"github.com/spf13/cobra"
 
-	"github.com/regen-network/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/x/group"
 )
 
 const (

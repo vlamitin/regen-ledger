@@ -3,7 +3,7 @@ package orm_test
 import (
 	"pgregory.net/rapid"
 
-	"github.com/regen-network/regen-ledger/orm/testdata"
+	"github.com/vlamitin/regen-ledger/orm/testdata"
 )
 
 // genGroupMember generates a new group member. At the moment it doesn't

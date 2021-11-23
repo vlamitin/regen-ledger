@@ -6,9 +6,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/regen-network/regen-ledger/orm"
-	"github.com/regen-network/regen-ledger/orm/testdata"
 	"github.com/stretchr/testify/require"
+	"github.com/vlamitin/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/orm/testdata"
 )
 
 func TestImportExportTableData(t *testing.T) {

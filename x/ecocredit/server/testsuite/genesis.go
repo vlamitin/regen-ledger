@@ -3,9 +3,9 @@ package testsuite
 import (
 	"encoding/json"
 
-	"github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/types/math"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/types/math"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 func (s *IntegrationTestSuite) TestInitExportGenesis() {

@@ -16,14 +16,14 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	climodule "github.com/regen-network/regen-ledger/types/module/client/cli"
-	restmodule "github.com/regen-network/regen-ledger/types/module/client/grpc_gateway"
-	servermodule "github.com/regen-network/regen-ledger/types/module/server"
-	"github.com/regen-network/regen-ledger/x/group"
-	"github.com/regen-network/regen-ledger/x/group/client"
-	"github.com/regen-network/regen-ledger/x/group/exported"
-	"github.com/regen-network/regen-ledger/x/group/server"
-	"github.com/regen-network/regen-ledger/x/group/simulation"
+	climodule "github.com/vlamitin/regen-ledger/types/module/client/cli"
+	restmodule "github.com/vlamitin/regen-ledger/types/module/client/grpc_gateway"
+	servermodule "github.com/vlamitin/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/x/group/client"
+	"github.com/vlamitin/regen-ledger/x/group/exported"
+	"github.com/vlamitin/regen-ledger/x/group/server"
+	"github.com/vlamitin/regen-ledger/x/group/simulation"
 )
 
 type Module struct {

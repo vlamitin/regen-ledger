@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 	"github.com/spf13/cobra"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 // QueryCmd returns the parent command for all x/ecocredit query commands.

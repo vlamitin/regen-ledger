@@ -6,9 +6,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/regen-network/regen-ledger/orm"
-	regenmath "github.com/regen-network/regen-ledger/types/math"
-	"github.com/regen-network/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/orm"
+	regenmath "github.com/vlamitin/regen-ledger/types/math"
+	"github.com/vlamitin/regen-ledger/x/group"
 )
 
 const (

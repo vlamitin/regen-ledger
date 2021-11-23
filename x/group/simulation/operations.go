@@ -14,9 +14,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	gogotypes "github.com/gogo/protobuf/types"
 
-	regentypes "github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/x/group"
-	"github.com/regen-network/regen-ledger/x/group/exported"
+	regentypes "github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/x/group/exported"
 )
 
 // group message types

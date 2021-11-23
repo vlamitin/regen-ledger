@@ -1,4 +1,4 @@
-module github.com/regen-network/regen-ledger/orm
+module github.com/vlamitin/regen-ledger/orm
 
 go 1.17
 

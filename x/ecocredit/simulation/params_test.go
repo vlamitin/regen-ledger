@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit"
-	"github.com/regen-network/regen-ledger/x/ecocredit/simulation"
 	"github.com/stretchr/testify/require"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/ecocredit/simulation"
 )
 
 func TestParamChanges(t *testing.T) {

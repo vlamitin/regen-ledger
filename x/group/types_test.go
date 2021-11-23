@@ -7,9 +7,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	proto "github.com/gogo/protobuf/types"
-	"github.com/regen-network/regen-ledger/orm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/vlamitin/regen-ledger/orm"
 )
 
 func TestThresholdDecisionPolicy(t *testing.T) {

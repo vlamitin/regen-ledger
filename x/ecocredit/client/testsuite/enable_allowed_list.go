@@ -5,10 +5,10 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/regen-network/regen-ledger/types/testutil/cli"
-	"github.com/regen-network/regen-ledger/types/testutil/network"
-	"github.com/regen-network/regen-ledger/x/ecocredit/client"
 	"github.com/stretchr/testify/suite"
+	"github.com/vlamitin/regen-ledger/types/testutil/cli"
+	"github.com/vlamitin/regen-ledger/types/testutil/network"
+	"github.com/vlamitin/regen-ledger/x/ecocredit/client"
 )
 
 type AllowListEnabledTestSuite struct {

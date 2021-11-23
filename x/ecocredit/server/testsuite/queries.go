@@ -3,7 +3,7 @@ package testsuite
 import (
 	"fmt"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 func (s *IntegrationTestSuite) TestQueryClasses() {

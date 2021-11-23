@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/regen-network/regen-ledger/types/testutil"
+	"github.com/vlamitin/regen-ledger/types/testutil"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
@@ -13,8 +13,8 @@ import (
 	params "github.com/cosmos/cosmos-sdk/x/params/types/proposal"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 type IntegrationTestSuite struct {

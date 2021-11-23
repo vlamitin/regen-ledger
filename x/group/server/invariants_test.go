@@ -15,8 +15,8 @@ import (
 	dbm "github.com/tendermint/tm-db"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/regen-network/regen-ledger/orm"
-	"github.com/regen-network/regen-ledger/x/group"
+	"github.com/vlamitin/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/x/group"
 )
 
 func getCtxCodecKey(t *testing.T) (sdk.Context, *codec.ProtoCodec, *sdk.KVStoreKey) {

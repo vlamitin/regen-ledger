@@ -4,8 +4,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/regen-network/regen-ledger/orm"
-	"github.com/regen-network/regen-ledger/orm/testdata"
+	"github.com/vlamitin/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/orm/testdata"
 )
 
 type GroupKeeper struct {

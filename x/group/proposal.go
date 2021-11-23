@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/regen-network/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/types/module/server"
 )
 
 func (p *Proposal) GetMsgs() []sdk.Msg {

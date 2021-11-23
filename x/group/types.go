@@ -6,8 +6,8 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/types"
-	"github.com/regen-network/regen-ledger/orm"
-	"github.com/regen-network/regen-ledger/types/math"
+	"github.com/vlamitin/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/types/math"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"

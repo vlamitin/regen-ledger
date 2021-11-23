@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	moduletypes "github.com/regen-network/regen-ledger/types/module"
+	moduletypes "github.com/vlamitin/regen-ledger/types/module"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client"
@@ -91,12 +91,12 @@ import (
 	tmos "github.com/tendermint/tendermint/libs/os"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/regen-network/regen-ledger/types/module/server"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
-	ecocreditmodule "github.com/regen-network/regen-ledger/x/ecocredit/module"
+	"github.com/vlamitin/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
+	ecocreditmodule "github.com/vlamitin/regen-ledger/x/ecocredit/module"
 
 	// unnamed import of statik for swagger UI support
-	_ "github.com/regen-network/regen-ledger/client/docs/statik"
+	_ "github.com/vlamitin/regen-ledger/client/docs/statik"
 )
 
 const (

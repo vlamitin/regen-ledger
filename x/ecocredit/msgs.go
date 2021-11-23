@@ -5,7 +5,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
 
-	"github.com/regen-network/regen-ledger/types/math"
+	"github.com/vlamitin/regen-ledger/types/math"
 )
 
 var (

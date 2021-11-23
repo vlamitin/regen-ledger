@@ -3,7 +3,7 @@ package server
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 func (s serverImpl) getCreditClassFee(ctx sdk.Context) sdk.Coins {
@@ -23,7 +23,7 @@ func (s serverImpl) chargeCreditClassFee(ctx sdk.Context, creatorAddr sdk.AccAdd
 
 	// Burn the coins
 	// TODO: Update this implementation based on the discussion at
-	// https://github.com/regen-network/regen-ledger/issues/351
+	// https://github.com/vlamitin/regen-ledger/issues/351
 	err = s.bankKeeper.BurnCoins(ctx, ecocredit.ModuleName, creditClassFee)
 	if err != nil {
 		return err

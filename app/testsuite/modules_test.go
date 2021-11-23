@@ -3,7 +3,7 @@ package testsuite
 import (
 	"testing"
 
-	ecocredit "github.com/regen-network/regen-ledger/x/ecocredit/client/testsuite"
+	ecocredit "github.com/vlamitin/regen-ledger/x/ecocredit/client/testsuite"
 )
 
 func TestEcocreditIntegration(t *testing.T) {

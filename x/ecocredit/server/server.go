@@ -5,9 +5,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/regen-network/regen-ledger/orm"
-	"github.com/regen-network/regen-ledger/types/module/server"
-	"github.com/regen-network/regen-ledger/x/ecocredit"
+	"github.com/vlamitin/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/types/module/server"
+	"github.com/vlamitin/regen-ledger/x/ecocredit"
 )
 
 const (
@@ -38,8 +38,8 @@ type serverImpl struct {
 	classInfoTable orm.PrimaryKeyTable
 	batchInfoTable orm.PrimaryKeyTable
 	sellOrderTable orm.AutoUInt64Table
-	buyOrderTable orm.AutoUInt64Table
-	askDenomTable orm.PrimaryKeyTable
+	buyOrderTable  orm.AutoUInt64Table
+	askDenomTable  orm.PrimaryKeyTable
 }
 
 func newServer(storeKey sdk.StoreKey, paramSpace paramtypes.Subspace,

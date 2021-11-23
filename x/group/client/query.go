@@ -5,8 +5,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/regen-network/regen-ledger/x/group"
 	"github.com/spf13/cobra"
+	"github.com/vlamitin/regen-ledger/x/group"
 )
 
 // QueryCmd returns the cli query commands for the group module.

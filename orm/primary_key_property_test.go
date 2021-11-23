@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"pgregory.net/rapid"
 
-	"github.com/regen-network/regen-ledger/orm"
-	"github.com/regen-network/regen-ledger/orm/testdata"
+	"github.com/vlamitin/regen-ledger/orm"
+	"github.com/vlamitin/regen-ledger/orm/testdata"
 )
 
 func TestPrimaryKeyTable(t *testing.T) {

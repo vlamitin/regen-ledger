@@ -13,7 +13,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"google.golang.org/grpc"
 
-	"github.com/regen-network/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/types"
 )
 
 type handler struct {

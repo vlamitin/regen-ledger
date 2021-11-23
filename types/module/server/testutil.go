@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/regen-network/regen-ledger/types/testutil"
+	"github.com/vlamitin/regen-ledger/types/testutil"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
@@ -20,8 +20,8 @@ import (
 	dbm "github.com/tendermint/tm-db"
 	"google.golang.org/grpc"
 
-	regentypes "github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/types/module"
+	regentypes "github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/types/module"
 )
 
 type FixtureFactory struct {
