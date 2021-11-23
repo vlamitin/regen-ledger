@@ -9,8 +9,8 @@ import (
 	types2 "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	sdk "github.com/regen-network/regen-ledger/types"
-	"github.com/regen-network/regen-ledger/x/data"
+	sdk "github.com/vlamitin/regen-ledger/types"
+	"github.com/vlamitin/regen-ledger/x/data"
 )
 
 var _ data.MsgServer = serverImpl{}

@@ -1,4 +1,4 @@
-module github.com/regen-network/regen-ledger/x/data
+module github.com/vlamitin/regen-ledger/x/data
 
 go 1.17
 
@@ -10,7 +10,7 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/ipfs/go-cid v0.0.7
-	github.com/regen-network/regen-ledger/types v0.0.0-00010101000000-000000000000
+	github.com/vlamitin/regen-ledger/types v0.0.0-00010101000000-000000000000
 	github.com/spf13/cobra v1.2.1
 	github.com/stretchr/testify v1.7.0
 	github.com/tendermint/tendermint v0.34.13
@@ -23,9 +23,9 @@ require (
 	github.com/99designs/keyring v1.1.6 // indirect
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d // indirect
 	github.com/DataDog/zstd v1.4.5 // indirect
-	github.com/Workiva/go-datastructures v1.0.52 // indirect
+	github.com/Workiva/go-datastructures v1.0.52 n// indirect
 	github.com/armon/go-metrics v0.3.9 // indirect
-	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/beorn7/perks v1.0.1 // idirect
 	github.com/bgentry/speakeasy v0.1.0 // indirect
 	github.com/btcsuite/btcd v0.22.0-beta // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
@@ -131,4 +131,4 @@ replace github.com/cosmos/cosmos-sdk => github.com/regen-network/cosmos-sdk v0.4
 
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
-replace github.com/regen-network/regen-ledger/types => ../../types
+replace github.com/vlamitin/regen-ledger/types => ../../types

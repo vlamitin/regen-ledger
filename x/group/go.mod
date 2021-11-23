@@ -1,4 +1,4 @@
-module github.com/regen-network/regen-ledger/x/group
+module github.com/vlamitin/regen-ledger/x/group
 
 go 1.17
 
@@ -9,10 +9,10 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/regen-network/cosmos-proto v0.3.1
-	github.com/regen-network/regen-ledger/orm v0.0.0-00010101000000-000000000000
-	github.com/regen-network/regen-ledger/types v0.0.0-00010101000000-000000000000
-	github.com/regen-network/regen-ledger/x/data v0.0.0-20210602121340-fa967f821a6e
-	github.com/regen-network/regen-ledger/x/ecocredit v0.0.0-20210602121340-fa967f821a6e
+	github.com/vlamitin/regen-ledger/orm v0.0.0-00010101000000-000000000000
+	github.com/vlamitin/regen-ledger/types v0.0.0-00010101000000-000000000000
+	github.com/vlamitin/regen-ledger/x/data v0.0.0-20210602121340-fa967f821a6e
+	github.com/vlamitin/regen-ledger/x/ecocredit v0.0.0-20210602121340-fa967f821a6e
 	github.com/spf13/cobra v1.2.1
 	github.com/stretchr/testify v1.7.0
 	github.com/tendermint/tendermint v0.34.13
@@ -26,8 +26,8 @@ replace github.com/cosmos/cosmos-sdk => github.com/regen-network/cosmos-sdk v0.4
 
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
-replace github.com/regen-network/regen-ledger/orm => ../../orm
+replace github.com/vlamitin/regen-ledger/orm => ../../orm
 
-replace github.com/regen-network/regen-ledger/types => ../../types
+replace github.com/vlamitin/regen-ledger/types => ../../types
 
-replace github.com/regen-network/regen-ledger/x/ecocredit => ../ecocredit
+replace github.com/vlamitin/regen-ledger/x/ecocredit => ../ecocredit
