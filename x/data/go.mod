@@ -1,4 +1,4 @@
-module github.com/regen-network/regen-ledger/x/data
+module github.com/vlamitin/regen-ledger/x/data
 
 go 1.17
 
@@ -10,7 +10,8 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/ipfs/go-cid v0.0.7
-	github.com/regen-network/regen-ledger/types v0.0.0-00010101000000-000000000000
+	github.com/regen-network/regen-ledger/types v1.0.0
+	github.com/regen-network/regen-ledger/x/data v0.0.0-20211124182446-eff9d0aa6af8
 	github.com/spf13/cobra v1.2.1
 	github.com/stretchr/testify v1.7.0
 	github.com/tendermint/tendermint v0.34.13
@@ -132,3 +133,5 @@ replace github.com/cosmos/cosmos-sdk => github.com/regen-network/cosmos-sdk v0.4
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
 replace github.com/regen-network/regen-ledger/types => ../../types
+
+replace github.com/regen-network/regen-ledger/x/data => ./
